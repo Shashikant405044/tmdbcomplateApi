@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#021330"
+    android:layout_height="300dp">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="#021330"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <androidx.cardview.widget.CardView
+               android:layout_marginTop="30dp"
+               app:cardElevation="100dp"
+               app:cardCornerRadius="10dp"
+               app:cardBackgroundColor="#021330"
+               android:layout_weight="1.3"
+               android:layout_marginStart="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:id="@+id/poster_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_background" />
+
+           </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.7"
+                android:id="@+id/liniaer_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher_background" >
+
+
+                <TextView
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="end"
+                    android:id="@+id/date_airing"
+                    android:textColor="#EDED5A"
+                    android:textSize="16sp"
+                    android:text="  Date "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView android:layout_marginStart="10dp"
+                    android:id="@+id/name_airing"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:text="  Name "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/liniaer_layout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                   android:id="@+id/vote_avarage_airing"
+                  style="@style/TextAppearance.AppCompat.Large"
+                  android:layout_width="40dp"
+                  android:layout_height="40dp"
+                  android:layout_margin="5dp"
+                  android:background="@drawable/backgroudcirle"
+                  android:gravity="center"
+                  android:shadowColor="@color/purple_500"
+                  android:shadowRadius="50"
+                  android:text="55"
+                  android:textColor="#333"
+                  android:textSize="14sp" />
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="14dp"
+                        android:src="@drawable/star"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:text="Name"
+                        android:layout_width="25sp"
+                        android:layout_height="25sp"/>
+                    <ImageView
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="14dp"
+                        android:src="@drawable/like"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:text="  Date "
+                        android:layout_width="25sp"
+                        android:layout_height="25sp"/>
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:text="  Over View   "
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+                <TextView
+                    android:justificationMode="inter_word"
+                    android:id="@+id/overView_airing"
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="  Over View   "
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

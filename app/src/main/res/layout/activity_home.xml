@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawar_layout"
+    android:layout_height="match_parent"
+    android:background="#021330"
+    tools:context=".HomeActivity">
+
+    <ScrollView
+        android:background="#021330"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#021330"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/movie"
+            android:id="@+id/cardViewMovies"
+            android:textColor="#ffff"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp" />
+          <androidx.appcompat.widget.AppCompatTextView
+              android:textColor="#ffff"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:text="Movies "
+              android:textSize="20sp" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:id="@+id/CardViewTvshow_airing_today"
+            android:background="@drawable/tvshow"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+          <TextView
+              android:textColor="@color/white"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:text="TvShows Airring Today "
+              android:textSize="20sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/l1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/popularpeople"
+                    android:id="@+id/MPopular_Person"
+                    android:textColor="#ffff"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="30sp" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textColor="#ffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="MPopularPerson "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:id="@+id/populartvshow"
+                    android:background="@drawable/populartvshow"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"/>
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text=" Popular TvShows  "
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+             <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/toprated"
+                    android:id="@+id/top_rate_tvShow"
+                    android:textColor="#ffff"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="30sp" />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textColor="#ffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Top Rated Movies "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/tvshow"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"/>
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="TvShows Airring Today "
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    </ScrollView>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#021330"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="1dp" />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#021330"
+    android:layout_margin="10dp"
+    tools:context=".TopRatedDetailsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+
+            android:backgroundTint="#01051C"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="350dp"
+            android:layout_height="400dp">
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:src="@drawable/star"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/poseter_path_topRates_m"
+            android:layout_width="340dp"
+            android:layout_height="380dp"/>
+        </androidx.cardview.widget.CardView>
+<LinearLayout
+    android:layout_marginStart="50dp"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:background="@drawable/backgroudcirle"
+            android:layout_marginTop="5dp"
+            android:textColor="#2979FF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="123 "
+            android:id="@+id/user_score_popularity"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="User Score  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="#2196F3"
+            android:gravity="end"
+            android:layout_gravity="end"
+            android:text="Release Date "
+            android:id="@+id/realeaseDate_t_r_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:justificationMode="none"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:justificationMode="none"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Overview"
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

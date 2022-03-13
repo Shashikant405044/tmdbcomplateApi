@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/drawable/circle.xml" value="0.1375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/drawable/circle1.xml" value="0.143" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/drawable/corner_radius.xml" value="0.1445" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/drawable/rounded_textview.xml" value="0.1375" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_home.xml" value="0.12" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_main.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_movies_free.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_movies_up_coming.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_populer_person_over_view.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_top_rated_details.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_top_rated_tv_show.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_tv_show.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_tv_show_airing_today.xml" value="0.15172101449275363" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/activity_tvshow_popular.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/app_bar_main.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/content_main.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/fragment_gallery.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/fragment_home.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/fragment_slideshow.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/movies_playing_list_item.xml" value="0.18" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/movies_popular_person_item.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/movies_populer_item.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/movies_upcoming_item.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/nav_header_main.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/popular_person_list.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/top_rated_tvshoww_item.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/tv_show_airing_item.xml" value="0.17803030303030304" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/layout/tv_show_popular_item.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MoviesFree/app/src/main/res/menu/main.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

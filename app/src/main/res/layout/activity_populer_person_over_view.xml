@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#021330"
+    android:layout_margin="10dp"
+    tools:context=".PopulerPersonOverView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/poseter_path"
+            android:layout_width="400dp"
+            android:layout_height="350dp"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="language"
+        android:id="@+id/original_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#2196F3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Release Date "
+        android:id="@+id/realeaseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/white"
+
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="mediya_type"
+        android:id="@+id/mediya_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+
+        android:justificationMode="none"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="language"
+        android:id="@+id/overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>
